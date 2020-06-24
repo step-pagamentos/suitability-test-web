@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/suitability-test-web/static/js/main.0ccec85e.chunk.js",
+    "main.js.map": "/suitability-test-web/static/js/main.0ccec85e.chunk.js.map",
+    "runtime-main.js": "/suitability-test-web/static/js/runtime-main.0df32c30.js",
+    "runtime-main.js.map": "/suitability-test-web/static/js/runtime-main.0df32c30.js.map",
+    "static/js/2.64e1be4f.chunk.js": "/suitability-test-web/static/js/2.64e1be4f.chunk.js",
+    "static/js/2.64e1be4f.chunk.js.map": "/suitability-test-web/static/js/2.64e1be4f.chunk.js.map",
+    "index.html": "/suitability-test-web/index.html",
+    "precache-manifest.4a57b4e87366a322a49a751baafc36cb.js": "/suitability-test-web/precache-manifest.4a57b4e87366a322a49a751baafc36cb.js",
+    "service-worker.js": "/suitability-test-web/service-worker.js",
+    "static/js/2.64e1be4f.chunk.js.LICENSE.txt": "/suitability-test-web/static/js/2.64e1be4f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0df32c30.js",
+    "static/js/2.64e1be4f.chunk.js",
+    "static/js/main.0ccec85e.chunk.js"
+  ]
+}
