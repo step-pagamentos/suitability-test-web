@@ -16,7 +16,7 @@ const SuitabilityTest = () => {
   }
 
   useEffect(() => {
-    fetch('http://localhost:4000/questionnaires/1/questions')
+    fetch(process.env.REACT_APP_API_URL + '/questionnaires/1/questions')
       .then(response => response.json()
         .then(questions => {
           setQuestions(questions);
@@ -26,7 +26,7 @@ const SuitabilityTest = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    fetch('http://localhost:4000/questionnaires/1/submissions', {
+    fetch(process.env.REACT_APP_API_URL + '/questionnaires/1/submissions', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
